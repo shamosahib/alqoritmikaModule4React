@@ -1,13 +1,14 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
 
-export default class Name extends Component{
+class Name extends Component{
     render(){
         return(
-            
-            <div> 
-                <p className="names-student">Ad: {this.props.firstName} </p>
-                <p className="names-student">Soyad: {this.props.lastName} </p>
+            <div className='name'>
+                <p className='first'>Name: {this.props.firstName}</p>
+                <p className='last'>Surname: {this.props.lastName}</p>
             </div>
         )
     }
 }
+
+export default Name;

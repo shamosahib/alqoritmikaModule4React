@@ -1,14 +1,14 @@
+import React, {Component} from 'react';
 import './App.css';
-import Student from './Student';
+import Profile from './Profile';
 
-function App() {
-  return (
-    <div className="App">
-     <Student firstName='Shamo' lastName='Naghiyev' kurs={3} group='Web1' checkLesson />
-     <Student firstName='Apple' lastName='Macbook' kurs={3} group='Web3' checkLesson/>
-     <Student firstName='Lenovo' lastName='Legion' kurs={3} group='Web1' checkLesson={false}/>
-    </div>
-  );
+
+class App extends Component {
+  render(){
+    return(
+    <Profile  firstName='Shamo' lastName='Naghiyev' email='example@gmail.com' personalNum='050 000 00 00' adress='Narimanov Ms'/>
+    )
+  }
 }
 
 export default App;
