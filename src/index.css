@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.block{
+  border: 1px solid rgb(35, 142, 223);
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+  display: inline-block;
+}
+.block .names-student{ 
+  font-weight: 500;
+}
