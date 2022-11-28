@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container{
+  border: 1px solid rgb(82, 148, 186);
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.del-btn{
+  border: none;
+  border-radius: 4px;
+  background-color: cadetblue;
+  margin-left: 5px;
+}
+
+.del-btn:hover{
+  background-color: rgb(61, 103, 105);
+  color: aliceblue;
+}
+
+.inpt-name{
+  margin-left: 20px;
+}
+.inpt-email{
+  margin-left: 2px;
+}
+.inpt-pass{
+  margin-left: 4px;
+}
