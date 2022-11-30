@@ -24,6 +24,11 @@ export default class App extends React.Component {
   searchList = () => {
     const inputText = document.querySelector(".inpt").value;
     const copyUsers = this.state.user;
+    copyUsers.filter(item => {
+      if(item.name == inputText){
+        alert(item.name);
+      }
+    })
   }
   
 
