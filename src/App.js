@@ -4,7 +4,8 @@ import List from './List';
 export default class App extends React.Component {
  
   state = {
-    user: []
+    user: [],
+    findUser: []
   };
   
   getData = () => {
@@ -18,15 +19,27 @@ export default class App extends React.Component {
     this.getData();
   }
 
+
+
+  searchList = () => {
+    const inputText = document.querySelector(".inpt").value;
+    const copyUsers = this.state.user;
+  }
+  
+
   render() {
+    
     return (
-      <div className='App'>
-        {this.state.user.map((item) =>{
+      <div className='Main-app'>
+        <div className='App'>
+         {this.state.user.map((item) =>{
           return(<List{...item}/>)
           
-        })}
+         })}
+        </div>
+        <input className='inpt' type={"text"}></input> 
+        <button type='button' onClick={this.searchList}> Axtarish et</button>
       </div>
-      
     );
   }
  }
