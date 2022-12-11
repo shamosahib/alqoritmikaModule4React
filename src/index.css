@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #939193;
+  }
+  
+  *{
+  box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: #430056;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header__title {
+    font-family: 'Helvetica', cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: -1130px;
+  }
+  
+  
+  a{
+    font-size: x-large;
+    margin-left: 10px;
+  }
+  input{
+    box-sizing: border-box;
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 84, 74, 0.5);
+  }
+
+  button {
+    margin-top: 17px;
+    padding: 5px 10px;
+    border: none;
+    transition: all 0.2s linear;
+    color: #FFEEDB;
+    background-color: rgb(219, 195, 11);
+    border-radius: 4px;
+  }
+
+  button:hover:not(:disabled) {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #FFEEDB;
+    color: rgb(58, 3, 85);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  select{
+    font-size: large;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+ 
+  p{
+    padding: 0;
+    margin: 0;
+    font-size: xx-large;
+  }
+  
+  .main{
+    
+    display: flex;
+    
+  
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+ 
+  .search{
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+  }
+  .search-box-button{
+    font-size: x-large;
+  }
+  .mylist{
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    
+  }
+  .list{
+    border:  1px solid rgb(99, 25, 203)
+  }
+  
+  .app-name{
+    text-align: center;
+  }
+  
+  .list-div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-div button{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: large;
+  }
+  .list-div a{
+    width: fit-content;
+    margin-top: 20px;
+  }
+  
+  .seacrh-title{
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .checkout{
+    font-family: 'Courier New', Courier, monospace;
+  }
