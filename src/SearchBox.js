@@ -19,7 +19,7 @@ function SearchBox(){
          
         return(
           <div className='search-box'>
-              <h5 className='seacrh-title'>SEARCH MOVIE</h5>
+              <h5 className='seacrh-title'>SEARCH MOVIE🍿</h5>
             <div className='search'>
               <input className='search-box-input' value={value} type="text" onChange={getSerchValue}  placeholder="Example, Harry Potter "/>
               <button className='search-box-button' onClick={() => dispatch(fetcher(value))}>Search</button>

@@ -27,7 +27,7 @@ function Mylist(){
   }
         return(
           <div className='mylist'>         
-            <p className='checkout'>Checkout</p>
+            <p className='checkout'>Checkout👇🏻</p>
             <div className='list-div'>
               <input value={listName} type="text" onChange={getListName}/>
               {flag ? <Link to='/list'>Go to Movie Lists</Link> : <button onClick={change}>Save list</button>}

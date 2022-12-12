@@ -100,7 +100,17 @@ button:disabled {
     width: fit-content;
     height: fit-content;
     padding: 5px;
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #8546ad;
     
+  }
+
+  .mylist input{
+    background-color: #a09fa1;
+    border-radius: 5px;
   }
   .list{
     border:  1px solid rgb(99, 25, 203)
@@ -134,4 +144,11 @@ button:disabled {
 
   .checkout{
     font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+  .search-box{
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin-left: 10px;
   }
